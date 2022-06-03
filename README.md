@@ -1,6 +1,8 @@
 # latex-math
 This repository was created to save LaTeX code that I write to make homeworks for my sister.
 
+Original preamble by [Wild Mathing's](https://vk.com/wildmathing) [post](https://vk.com/wall-201568161_213) about LaTeX.
+
 # Algebra
 ## 1. Fractions
 - [ ] [1.1 Comparison](https://github.com/kharitonov-egor/latex-math/tree/main/algebra/1_fractions/1_comparison)
