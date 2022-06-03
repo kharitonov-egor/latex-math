@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1654220165 "d:/git/latex-math/course.tex" "course.pdf" "course" 1654220166
+["pdflatex"] 1654220205 "d:/git/latex-math/course.tex" "course.pdf" "course" 1654220207
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1654213495 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk" 1654208349 36852 61cc81232c599518f28cce089e7e727a ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk" 1654209740 45168 c072fadbec743686e649f11dc635bf55 ""
@@ -65,9 +65,9 @@
   "C:/Users/egakh/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1639593011 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "C:/Users/egakh/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1650429716 31067 89623bb5c412243bea4c601866f5e8c1 ""
   "C:/Users/egakh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "course.aux" 1654220166 643 a679c9a3bebdf3cc9e080eb7da77f7ea "pdflatex"
-  "course.tex" 1654220161 887 12252df971f004089841f18f11fa097c ""
-  "d:/git/latex-math/course.tex" 1654220161 887 12252df971f004089841f18f11fa097c ""
+  "course.aux" 1654220206 644 6f4cc11a56753f2a443d1439d89568c4 "pdflatex"
+  "course.tex" 1654220201 888 5ebefd18bdbf740367cfa4177d4a34c2 ""
+  "d:/git/latex-math/course.tex" 1654220201 888 5ebefd18bdbf740367cfa4177d4a34c2 ""
   (generated)
   "course.aux"
   "course.log"
