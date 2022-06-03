@@ -22,3 +22,7 @@ course.synctex.gz
 *.cb
 *.cb2
 .*.lb
+fractions/sum-1.synctex.gz
+*.synctex.gz
+fractions/sum-1.fdb_latexmk
+*.fdb_latexmk
