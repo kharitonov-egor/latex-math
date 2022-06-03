@@ -5,11 +5,10 @@
 \usepackage[english,russian]{babel} 
 \usepackage[left=20mm, top=20mm, right=20mm, bottom=20mm, nohead, includefoot]{geometry} 
 \usepackage{amsmath,amsfonts,amssymb} % математический пакет
-\usepackage{fancybox,fancyhdr} 
-
+\usepackage{fancybox,fancyhdr}  % счетчик нумерации страниц
+\usepackage{lastpage}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[R]{}
 \fancyfoot[C]{Made by Egor Kharitonov with \LaTeX} 
 \fancyhead[C]{{\Large \textbf{Math for Kristina. Course plan. Summer 2022.}}}
 \headsep=10mm 
@@ -19,8 +18,10 @@
  
 \newcommand{\lr}[1]{\left({#1}\right)} % команда для скобок
 
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
 \begin{document}	
-	{\huge \textbf{I. Algebra!!}}
+	{\huge \textbf{I. Algebra}}
 
 	{\Large \section {Fractions}}
 
@@ -46,7 +47,7 @@
 	\subsubsection{By natural numbers}
 	\subsubsection{By decimals} \hspace{1.5cm}
 
-	{\huge \textbf{II. Geometry!1}}
+	{\huge \textbf{II. Geometry}}
 
 	
 		

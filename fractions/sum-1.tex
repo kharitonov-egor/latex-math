@@ -6,6 +6,7 @@
 \usepackage[left=20mm, top=20mm, right=20mm, bottom=20mm, nohead, includefoot]{geometry} 
 \usepackage{amsmath,amsfonts,amssymb} % математический пакет
 \usepackage{fancybox,fancyhdr} 
+\usepackage{lastpage}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -18,6 +19,8 @@
 \setlength{\headheight}{12.0pt}
  
 \newcommand{\lr}[1]{\left({#1}\right)} % команда для скобок
+
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
 
 \begin{document}
 
