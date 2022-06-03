@@ -1,12 +1,15 @@
 # Fdb version 3
-["pdflatex"] 1654217897 "d:/git/latex-math/course.tex" "course.pdf" "course" 1654217899
+["pdflatex"] 1654218269 "d:/git/latex-math/course.tex" "course.pdf" "course" 1654218271
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1654213495 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/egakh/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk" 1654208349 36852 61cc81232c599518f28cce089e7e727a ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk" 1654209740 45168 c072fadbec743686e649f11dc635bf55 ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0800.pk" 1654213918 18244 b8d7f13adf47abd9c7b7999ac436a4ec ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1200.pk" 1654212574 27028 153f814832db0a3b9710eaf7c5905714 ""
+  "C:/Users/egakh/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1654208336 3304 6a543c07045572737981351171e0505e ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1654209737 3312 d199be9bd555944e2403193d58a0256a ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm0800.tfm" 1654213915 3240 04766e423166ba63b7fbbf132b8618cb ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1654212571 3240 c2435f2b5cd66d4930bc29b8df87967e ""
+  "C:/Users/egakh/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1654208333 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "C:/Users/egakh/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1654209707 3252 3140686608bdcae603a09a7973fb9e55 ""
   "C:/Users/egakh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1654208545 10252454 96b104ad237e4823ed43aa3d190c6dd5 ""
   "C:/Users/egakh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -62,9 +65,9 @@
   "C:/Users/egakh/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1639593011 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "C:/Users/egakh/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1650429716 31067 89623bb5c412243bea4c601866f5e8c1 ""
   "C:/Users/egakh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "course.aux" 1654217899 132 c89ce2280ab791babe7d68932f1c9de6 "pdflatex"
-  "course.tex" 1654217895 793 1fdeb792dc2851cd41ade73befa7d28d ""
-  "d:/git/latex-math/course.tex" 1654217895 793 1fdeb792dc2851cd41ade73befa7d28d ""
+  "course.aux" 1654218270 640 59bf7c1c0f3a0cc7a1ed81c9b85de032 "pdflatex"
+  "course.tex" 1654218267 884 68ef791ba95ebb2a629dd15640720aab ""
+  "d:/git/latex-math/course.tex" 1654218267 884 68ef791ba95ebb2a629dd15640720aab ""
   (generated)
   "course.aux"
   "course.log"
