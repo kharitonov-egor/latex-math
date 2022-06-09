@@ -10,7 +10,8 @@ Original preamble by [Wild Mathing's](https://vk.com/wildmathing) [post](https:/
 - [x] [1.3 Subtraction](https://github.com/kharitonov-egor/latex-math/blob/main/algebra/1_fractions/3_subtraction/1.pdf). Result: 52/55 🔥
 - [x] [1.4 Multiplication](https://github.com/kharitonov-egor/latex-math/blob/main/algebra/1_fractions/4_multiplication/1.pdf). Result: 52,5/55 🔥
 - [x] [1.4 Division](https://github.com/kharitonov-egor/latex-math/blob/main/algebra/1_fractions/5_division/1.pdf). Result: 47/55 🔥
-- [ ] [1.5 Reducing](https://github.com/kharitonov-egor/latex-math/blob/main/algebra/1_fractions/6_reducing/1.pdf). Result: TBD
+- [x] [1.5 Reducing](https://github.com/kharitonov-egor/latex-math/blob/main/algebra/1_fractions/6_reducing/1.pdf). Result: 51/55 🔥
+- [ ] 1.6 Fractions final. Result: TBD
 ## 2. Mixed numbers
 - [ ] 2.1 Adding and subtraction
 ## 3. Decimals
