@@ -1,0 +1,88 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english]{babel} 
+\usepackage[left=20mm, top=20mm, right=20mm, bottom=20mm, nohead, includefoot]{geometry} 
+\usepackage{amsmath,amsfonts,amssymb} % математический пакет
+\usepackage{fancybox,fancyhdr} 
+\usepackage{tikz}
+\pagestyle{fancy}
+\headsep=5mm 
+\setlength{\footskip}{12.0pt}
+\setlength{\headheight}{12.0pt}
+\newcommand{\lr}[1]{\left({#1}\right)} % команда для скобок
+
+\fancyfoot[C]{Made by Egor Kharitonov with \LaTeX{}} 
+\fancyhead[L]{{\large \textbf{Math for Kristina. CheatSheets. Lesson 17.}}}
+\fancyhead[R]{{\large \textbf{Summer 2022}}}
+
+\begin{document}
+
+\begin{Large}
+
+\section*{Power of a number}
+
+\subsection*{Definition}
+
+$a^n = \smash[b]{\! \underbrace{a \cdot a \cdots{a}\,}_\text{$n$ times}}$
+
+\subsubsection*{Example:}
+
+$2^4 = 2 \cdot 2 \cdot 2 \cdot 2 = 16$ \\[0.05cm]
+
+\noindent $5^3 = 5 \cdot 5 \cdot 5 = 125$ \\[0.05cm]
+
+\noindent $10^5 = 100000$
+
+\subsection*{Attributes}
+
+\subsubsection*{Product of powers}
+
+$a^m \cdot a^n = a^{m+n}$ \\[0.05cm]
+
+\noindent $3^4 \cdot 3^2 = 3^6 = 729$
+
+\subsubsection*{Division of powers}
+
+$a^m \div a^n = \dfrac{a^m}{a^n} = a^{m-n}$ \\[0.05cm]
+
+\noindent $3^4 \div 3^2 = \dfrac{3^4}{3^2} = 3^2 = 9$
+
+\subsubsection*{Multiplication power of power}
+
+$(a^m)^n = a^{m \cdot n}$ \\[0.05cm]
+
+\noindent $(2^2)^3 = 2^{2 \cdot 3} = 2^6 = 64$
+
+\subsubsection*{Power of fraction}
+
+$(a^n \cdot b^n) = (a \cdot b)^n$ \\[0.05cm]
+
+\noindent $(a^n \div b^n) = (a \div b)^n$
+
+\section*{Dot, lines, ray}
+
+\begin{tikzpicture}
+
+    \filldraw[black] (0,0) circle (2pt) node[anchor=west]{};
+    \filldraw[black] (4.5,0) circle (1pt) node[anchor=west]{Dot};
+
+\end{tikzpicture}
+\\[0.1cm]
+
+\begin{tikzpicture}
+    \draw[gray, thick] (-1,2) -- (2,2);
+    \filldraw[black] (-1,2) circle (2pt) node[anchor=west]{};
+    \filldraw[black] (3,2) circle (1pt) node[anchor=west]{Ray};
+    \\[0.1cm]
+
+    \draw[gray, thick] (-1,0) -- (2,0);
+    \filldraw[black] (3,0) circle (1pt) node[anchor=west]{Line};
+
+\end{tikzpicture}
+
+Ray can extend only in one way endlessy. Line can be extend in two ways endlessly. Dot is a dot.
+
+\end{Large}
+
+\end{document}
