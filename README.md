@@ -22,12 +22,12 @@ Original preamble by [Wild Mathing's](https://vk.com/wildmathing) [post](https:/
 - [x] 13. Multiplication by decimals
 - [x] 14. Division by natural numbers
 - [x] 15. Division by decimals
-- [ ] 16. Finals
+- [x] 16. Finals
 
 ## Other
-- [ ] 17. Power of a number
-- [ ] 18. Mean
-- [ ] 19. Percantage
+- [x] 17. Power of a number
+- [x] 18. Mean
+- [x] 19. Percantage
 - [ ] 20. Combinatorics
 
 ## Advanced
@@ -40,9 +40,9 @@ Original preamble by [Wild Mathing's](https://vk.com/wildmathing) [post](https:/
 
 ## Basic Concepts
 
-- [ ] 17. Dot, lines, ray
-- [ ] 18. Angles
-- [ ] 19. Area and formulas
+- [x] 17. Dot, lines, ray
+- [x] 18. Angles
+- [x] 19. Area and formulas
 - [ ] 20. Circle, disk
 
 ## Advanced
