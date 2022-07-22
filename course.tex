@@ -7,6 +7,7 @@
 \usepackage{fancybox,fancyhdr} 
 \usepackage{array}
 \usepackage{multirow}
+\usepackage{longtable}
 \pagestyle{fancy}
 \headsep=5mm 
 \setlength{\footskip}{12.0pt}
@@ -21,45 +22,53 @@
 
 \begin{center}
 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
-    \begin{tabular}{|lll|}
+\begin{longtable}{|lll|}
     \hline
-    \multicolumn{3}{|c|}{\textbf{Easy}}                                                                                              \\ \hline
-    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Algebra}}                  & \multicolumn{1}{c|}{\textbf{Geometry}}       \\ \hline
-    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Fractions}}                &                                              \\ \hline
-    \multicolumn{1}{|l|}{1}  & \multicolumn{1}{l|}{Comparison}                        &                                              \\ \hline
-    \multicolumn{1}{|l|}{2}  & \multicolumn{1}{l|}{Adding}                            &                                              \\ \hline
-    \multicolumn{1}{|l|}{3}  & \multicolumn{1}{l|}{Subtraction}                       &                                              \\ \hline
-    \multicolumn{1}{|l|}{4}  & \multicolumn{1}{l|}{Multiplitication}                  &                                              \\ \hline
-    \multicolumn{1}{|l|}{5}  & \multicolumn{1}{l|}{Division}                          &                                              \\ \hline
-    \multicolumn{1}{|l|}{6}  & \multicolumn{1}{l|}{Reducing}                          &                                              \\ \hline
-    \multicolumn{1}{|l|}{7}  & \multicolumn{1}{l|}{Fraction final}                    &                                              \\ \hline
-    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Mixed numbers}}            &                                              \\ \hline
-    \multicolumn{1}{|l|}{8}  & \multicolumn{1}{l|}{Adding and subtraction}            &                                              \\ \hline
-    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Decimals}}                 &                                              \\ \hline
-    \multicolumn{1}{|l|}{9}  & \multicolumn{1}{l|}{Adding}                            &                                              \\ \hline
-    \multicolumn{1}{|l|}{10} & \multicolumn{1}{l|}{Subtraction}                       &                                              \\ \hline
-    \multicolumn{1}{|l|}{11} & \multicolumn{1}{l|}{Rounding}                          &                                              \\ \hline
-    \multicolumn{1}{|l|}{12} & \multicolumn{1}{l|}{Multiplication by natural numbers} &                                              \\ \hline
-    \multicolumn{1}{|l|}{13} & \multicolumn{1}{l|}{Multiplication by decimals}        &                                              \\ \hline
-    \multicolumn{1}{|l|}{14} & \multicolumn{1}{l|}{Division by natural numbers}       &                                              \\ \hline
-    \multicolumn{1}{|l|}{15} & \multicolumn{1}{l|}{Division by decimals}              &                                              \\ \hline
-    \multicolumn{1}{|l|}{16} & \multicolumn{1}{l|}{Decimal final}                     &                                              \\ \hline
-    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Other}}                    & \multicolumn{1}{c|}{\textbf{Basic concepts}} \\ \hline
-    \multicolumn{1}{|l|}{17} & \multicolumn{1}{l|}{Power of a number}                 & Dot, lines, ray                              \\ \hline
-    \multicolumn{1}{|l|}{18} & \multicolumn{1}{l|}{Mean}                              & Angles                                       \\ \hline
-    \multicolumn{1}{|l|}{19} & \multicolumn{1}{l|}{Percentage}                        & Area and volume                              \\ \hline
-    \multicolumn{1}{|l|}{20} & \multicolumn{1}{l|}{Combinatorics}                     & Circle, disk                                 \\ \hline
-    \multicolumn{3}{|c|}{\textbf{Advanced}}                                                                                          \\ \hline
-    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Algebra}}                  & \multicolumn{1}{c|}{\textbf{Geometry}}       \\ \hline
-    \multicolumn{1}{|l|}{21} & \multicolumn{1}{l|}{Prime and composite numbers}       &                                              \\ \hline
-    \multicolumn{1}{|l|}{22} & \multicolumn{1}{l|}{Positive and negative numbers}     & \multirow{2}{*}{Function graphs}             \\ \cline{1-2}
-    \multicolumn{1}{|l|}{23} & \multicolumn{1}{l|}{GCD, GCM}                          &                                              \\ \hline
-    \multicolumn{3}{|c|}{\textbf{Olympiad mathematics}}                                                                              \\ \hline
-    \end{tabular}
-    \end{table}
+    \multicolumn{3}{|c|}{\textbf{Easy}}                                                                                                       \\ \hline
+    \endfirsthead
+    %
+    \endhead
+    %
+    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Algebra}}                  & \multicolumn{1}{c|}{\textbf{Geometry}}                \\ \hline
+    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Fractions}}                &                                                       \\ \hline
+    \multicolumn{1}{|l|}{1}  & \multicolumn{1}{l|}{Comparison}                        &                                                       \\ \hline
+    \multicolumn{1}{|l|}{2}  & \multicolumn{1}{l|}{Adding}                            &                                                       \\ \hline
+    \multicolumn{1}{|l|}{3}  & \multicolumn{1}{l|}{Subtraction}                       &                                                       \\ \hline
+    \multicolumn{1}{|l|}{4}  & \multicolumn{1}{l|}{Multiplitication}                  &                                                       \\ \hline
+    \multicolumn{1}{|l|}{5}  & \multicolumn{1}{l|}{Division}                          &                                                       \\ \hline
+    \multicolumn{1}{|l|}{6}  & \multicolumn{1}{l|}{Reducing}                          &                                                       \\ \hline
+    \multicolumn{1}{|l|}{7}  & \multicolumn{1}{l|}{Fraction final}                    &                                                       \\ \hline
+    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Mixed numbers}}            &                                                       \\ \hline
+    \multicolumn{1}{|l|}{8}  & \multicolumn{1}{l|}{Adding and subtraction}            &                                                       \\ \hline
+    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Decimals}}                 &                                                       \\ \hline
+    \multicolumn{1}{|l|}{9}  & \multicolumn{1}{l|}{Adding}                            &                                                       \\ \hline
+    \multicolumn{1}{|l|}{10} & \multicolumn{1}{l|}{Subtraction}                       &                                                       \\ \hline
+    \multicolumn{1}{|l|}{11} & \multicolumn{1}{l|}{Rounding}                          &                                                       \\ \hline
+    \multicolumn{1}{|l|}{12} & \multicolumn{1}{l|}{Multiplication by natural numbers} &                                                       \\ \hline
+    \multicolumn{1}{|l|}{13} & \multicolumn{1}{l|}{Multiplication by decimals}        &                                                       \\ \hline
+    \multicolumn{1}{|l|}{14} & \multicolumn{1}{l|}{Division by natural numbers}       &                                                       \\ \hline
+    \multicolumn{1}{|l|}{15} & \multicolumn{1}{l|}{Division by decimals}              &                                                       \\ \hline
+    \multicolumn{1}{|l|}{16} & \multicolumn{1}{l|}{Decimal final}                     &                                                       \\ \hline
+    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Other}}                    & \multicolumn{1}{c|}{\textbf{Basic concepts}}          \\ \hline
+    \multicolumn{1}{|l|}{17} & \multicolumn{1}{l|}{Power of a number}                 & Dot, lines, ray                                       \\ \hline
+    \multicolumn{1}{|l|}{18} & \multicolumn{1}{l|}{Mean}                              & Angles                                                \\ \hline
+    \multicolumn{1}{|l|}{19} & \multicolumn{1}{l|}{Percentage}                        & Area and volume                                       \\ \hline
+    \multicolumn{3}{|c|}{\textbf{Advanced}}                                                                                                   \\ \hline
+    \multicolumn{1}{|l|}{}   & \multicolumn{1}{c|}{\textbf{Algebra}}                  & \multicolumn{1}{c|}{\textbf{Geometry}}                \\ \hline
+    \multicolumn{1}{|l|}{20} & \multicolumn{1}{l|}{Prime and composite numbers}       & \multicolumn{1}{c|}{\multirow{3}{*}{Function graphs}} \\ \cline{1-2}
+    \multicolumn{1}{|l|}{21} & \multicolumn{1}{l|}{GCD, GCM}                          & \multicolumn{1}{c|}{}                                 \\ \cline{1-2}
+    \multicolumn{1}{|l|}{22} & \multicolumn{1}{l|}{Probability}                       & \multicolumn{1}{c|}{}                                 \\ \hline
+    \multicolumn{1}{|l|}{23} & \multicolumn{1}{l|}{Combinatorics}                     & Circle,disk                                           \\ \hline
+    \multicolumn{3}{|c|}{\textbf{Olympiad mathematics}}                                                                                       \\ \hline
+    \multicolumn{3}{|c|}{Beginning}                                                                                                           \\ \hline
+    \multicolumn{1}{|l|}{24} & \multicolumn{1}{l|}{Examples and designs}              &                                                       \\ \hline
+    \multicolumn{1}{|l|}{25} & \multicolumn{1}{l|}{Yes or no?}                        &                                                       \\ \hline
+    \multicolumn{3}{|c|}{Algorithms}                                                                                                          \\ \hline
+    \multicolumn{1}{|l|}{26} & \multicolumn{1}{l|}{Algorithms and operations}         &                                                       \\ \hline
+    \multicolumn{1}{|l|}{27} & \multicolumn{1}{l|}{Weights}                           &                                                       \\ \hline
+    \multicolumn{1}{|l|}{28} & \multicolumn{1}{l|}{Transfusions}                      &                                                       \\ \hline
+    \multicolumn{1}{|l|}{29} & \multicolumn{1}{l|}{Tables}                            &                                                       \\ \hline
+    \end{longtable}
 
 \end{center}
 
