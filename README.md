@@ -3,6 +3,8 @@ This repository was created to save LaTeX code that I write to make homeworks fo
 
 Original preamble by [Wild Mathing's](https://vk.com/wildmathing) [post](https://vk.com/wall-201568161_213) about LaTeX.
 
+Olympiad math: [mathus.ru](https://mathus.ru/)
+
 # Algebra
 ## Fractions
 - [x] [1. Comparison](https://github.com/kharitonov-egor/latex-math/blob/main/algebra/1_fractions/1_comparison/1.pdf). Result: 9/20 🔥
@@ -28,13 +30,13 @@ Original preamble by [Wild Mathing's](https://vk.com/wildmathing) [post](https:/
 - [x] 17. Power of a number
 - [x] 18. Mean
 - [x] 19. Percantage
-- [ ] 20. Combinatorics
 
 ## Advanced
 
-- [ ] 21. Prime and composite numbers
-- [ ] 22. Positive and negative numbers 
-- [ ] 23. GCD, GCM
+- [ ] 20. Prime and composite numbers
+- [ ] 21. Positive and negative numbers 
+- [ ] 22. GCD, GCM
+- [ ] 23. Combinatorics
 
 # Geometry
 
@@ -43,12 +45,22 @@ Original preamble by [Wild Mathing's](https://vk.com/wildmathing) [post](https:/
 - [x] 17. Dot, lines, ray
 - [x] 18. Angles
 - [x] 19. Area and formulas
-- [ ] 20. Circle, disk
 
 ## Advanced
 
-- [ ] 22. Function graphs
+- [ ] 20-22. Function graphs
+- [ ] 23. Circle, disk
 
 # Olympiad mathematics
 
-TBA
+## Beginning
+
+- [ ] 24. Examples and designs
+- [ ] 25. Yes or no?
+
+## Algorithms
+
+- [ ] 26. Algorithms and operations
+- [ ] 27. Weights
+- [ ] 28. Transfusions
+- [ ] 29. Tables
